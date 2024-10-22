@@ -1,0 +1,314 @@
+.content-page-main-ekran{
+
+}
+.content-page-main-ekran-picture{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.content-page-main-ekran-picture-container{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.content-page-main-ekran-picture-container.logicon-mod{
+    bottom: auto;
+    top: 0px;
+}
+
+.content-page-main-ekran-picture-bg{
+    overflow: hidden;
+}
+.content-page-main-ekran-picture-bg img{
+    /*width: 100%;*/
+
+    transform: translateX(-50%);
+    left: 50%;
+    position: relative;
+}
+
+@media (min-width: 2560px){
+    .content-page-main-ekran-picture-bg img{
+        width: 100%;
+    }
+}
+
+
+.content-page-main-ekran-picture-bg-elements{
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+}
+.content-page-main-ekran-picture-bg-elements .main-ekran-car{
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+.content-page-main-ekran-picture-bg-elements .main-ekran-car #service-container-animation{
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 134.703196347032%;
+    width: auto;
+}
+.content-page-main-ekran-picture-bg-elements .main-ekran-car #service-continaer-animation-upper{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+.content-page-main-ekran-picture-bg-elements .main-ekran-car #infrastructura-animation{
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 146.9178082191781%;
+    width: auto;
+}
+.content-page-main-ekran-picture-bg-elements .main-ekran-car #train-item-animation{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 129.4245385450597%;
+    width: auto;
+}
+.content-page-main-ekran-picture-bg-elements.detail-page-infrastructura .main-ekran-car #infrastructura-animation{
+    height: 287.9194630872483%;
+    bottom: calc(-100% + 3.80313199105145%);
+}
+.content-page-main-ekran-picture-bg-elements .main-ekran-car #about-animation{
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 155.6291390728477%;
+    width: auto;
+}
+.content-page-main-ekran-picture-bg-elements .main-ekran-car #main-ekran-krisha{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    width: auto;
+}
+
+.content-page-main-ekran-picture-bg-elements .main-ekran-car #service-container-import-dv-animation{
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 162.534435261708%;
+    width: auto;
+    bottom: -20.66115702479339%;
+}
+.content-page-main-ekran-picture-bg-elements .main-ekran-car #service-container-import-vldnovosib-animation{
+    position: absolute;
+    bottom: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 206.9444444444444%;
+    width: auto;
+}
+
+
+
+
+.content-page-main-ekran-content{
+    position: relative;
+    z-index: 1;
+    box-sizing: border-box;
+    padding-top: 154px;
+}
+
+.content-page-main-ekran-description-container{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+
+
+.content-page-main-ekran-text{
+
+}
+.content-page-main-ekran-content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.content-page-main-ekran-content-container.main-page-container-mod{
+    height: 1486px;
+}
+.content-page-main-ekran-content-container.service-container-mod{
+    height: 1396px;
+}
+.content-page-main-ekran-content-container.service-container-import-detail-mod{
+    height: 1096px;
+}
+.content-page-main-ekran-content-container.service-container-import-detail-vldnovosib-mod{
+    height: 782px;
+}
+.content-page-main-ekran-content-container.infrastructura-container-mod{
+    height: 1396px;
+}
+.content-page-main-ekran-content-container.infrastructura-detail-container-mod{
+    height: 548px;
+}
+.content-page-main-ekran-content-container.about-detail-container-mod{
+    height: 548px;
+}
+.content-page-main-ekran-content-container.contacts-detail-container-mod{
+    height: 293px;
+}
+.content-page-main-ekran-content-container.content-page-static-detail-container-mod{
+    min-height: 142px;
+}
+.content-page-main-ekran-content-container.logicon-detail-container-mod{
+    height: 784px;
+}
+.content-page-main-ekran-content-container.panda-page-mod{
+    height: 1396px;
+}
+.content-page-main-ekran-text .main-page-slider-container .main-page-slider{
+    width: 100%;
+}
+.content-page-main-ekran-text .main-page-slider-container.with-btns{
+    display: flex;
+    justify-content: space-between;
+}
+.content-page-main-ekran-text .main-page-slider-container.with-btns .main-page-slider{
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+}
+.content-page-main-ekran-text .main-slider-item .slider-item-desc p{
+    font-size: 18px;
+}
+.content-page-main-ekran-text .main-page-calculator-container{
+    filter: drop-shadow(0px 30px 60px rgba(35, 69, 133, 0.20));
+    padding-left: calc((100% / 6) + 6px);
+}
+.content-page-main-ekran-text .service-container-bottom-text{
+    padding-left: calc((100% / 6) + 6px);
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+.content-page-main-ekran-text .infografica-list-container{
+    width: 100%;
+    padding: 0px;
+}
+.service-container-bottom-text{
+
+}
+
+.right-content-compensator{
+    padding-left: 8.33%;
+}
+
+
+
+
+
+
+
+
+
+.flex-container{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: -16px;
+}
+.flex-container .flex-container-item{
+    box-sizing: border-box;
+    padding: 16px;
+}
+.flex-container.col-2 .flex-container-item{
+    width: 50%;
+}
+.flex-container-item .flex-container-item-wrap{
+    height: 100%;
+}
+
+
+
+
+
+
+@media (max-width: 1023px){
+
+
+    .content-page-main-ekran-picture{
+        overflow: hidden;
+    }
+    .content-page-main-ekran-picture-bg {
+        overflow: visible;
+    }
+    .content-page-main-ekran-picture-bg-elements .main-ekran-car{
+        overflow: visible;
+    }
+    .content-page-main-ekran-picture-container{
+        transform: translate(50%, 6%);
+    }
+
+
+
+
+
+    .content-page-main-ekran-content{
+        padding-top: 114px;
+    }
+    .content-page-main-ekran-description-container{
+        gap: 0px;
+    }
+    .content-page-main-ekran-text .main-page-calculator-container{
+        padding-left: 0px;
+    }
+    .content-page-main-ekran-text .service-container-bottom-text{
+        padding-left: 0px;
+    }
+
+
+    .content-page-main-ekran-content-container.main-page-container-mod {
+        height: 1238px;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .content-page-main-ekran-content-container.main-page-container-mod {
+        height: 1680px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
